@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/"/>
+    <qresource prefix="/new/prefix1">
+        <file>resource/allCourse.png</file>
+        <file>resource/chooseCourse.png</file>
+        <file>resource/head.png</file>
+        <file>resource/head-white.png</file>
+        <file>resource/logout-white.png</file>
+        <file>resource/personInfo.png</file>
+        <file>resource/score.png</file>
+        <file>resource/pwd.png</file>
+        <file>resource/teach.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,100 @@
+QPushButton
+{
+    color:rgb(244, 244, 244);
+    background-color: #228974;
+    border-radius: 6px; 
+    border: 3px ridge #228974;
+}
+
+QLable{color:#228974 ;}
+
+QLineEdit
+{
+    border: 2px solid #228974;
+    border-radius: 6px;
+}
+
+QRadioButton
+{
+	font: 40 10pt "微软雅黑";
+	background: transparent;
+	color:black;
+	border: none;
+}
+
+QRadioButton::indicator 
+{
+    width: 12px;
+    height: 12px;
+    border-radius: 8px;
+}
+ 
+QRadioButton::indicator:checked 
+{
+	width: 14px;
+    height: 14px;
+    background-color: QRadialGradient(spread: pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 #228974, stop:0.6 #228974,stop:0.65 rgba(255, 255, 255, 255), stop:0.8 rgba(255, 255, 255, 255), stop:0.85 #228974, stop:1 #228974);
+    border: 1px solid #228974;
+	border-radiua : 8px;
+}
+
+QRadioButton::indicator:unchecked 
+{
+    background-color: white;
+    border: 2px solid #228974;
+}
+
+QTableView
+{
+    border: 2px solid #228974;
+    border-radius: 2px;
+}
+
+QComboBox
+{
+    border: 2px solid #228974;
+}
+
+
+QHeaderView::section
+{
+    font: bold 14px;
+    font-weight: bold;
+    height: 36px;
+    padding-top: 5px;
+    text-align: center;
+    color: #909399;
+    background-color: white;
+    border: 1px #909399;
+}
+
+QHeaderView::section:middle
+{
+    border-right:1px #909399;
+}
+
+QTableView{
+ 
+    selection-background-color:#228974;
+      
+}
+
+QTableView::item
+{
+    border: none;        
+    color: #2f2f2f;
+}
+
+QComboBox QAbstractItemView {
+ 
+    outline: 1px solid; 
+     
+    border: 1px solid;
+     
+    color: black;
+     
+    background-color: white;
+     
+    selection-background-color:#228974; 
+     
+}
